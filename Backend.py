@@ -2,7 +2,7 @@ from pypdf import PdfReader
 import google.generativeai as genai
 import time
 
-genai.configure(api_key = "AIzaSyARcqGtkhHuHstUjErjF3EiZw1BlHnW5L4")
+genai.configure(api_key = "REDACTED")
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 flashcards = ""
